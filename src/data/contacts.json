@@ -1,0 +1,73 @@
+[
+    {
+      "key": 1,
+      "name": "Juan Pérez",
+      "phone": "+54 912345678",
+      "email": "jperez@gmail.com",
+      "type": "social"
+    },
+    {
+      "key": 2,
+      "name": "María González",
+      "phone": "+58 923456789",
+      "email": "mgonzalez@gmail.com",
+      "type": "trabajo"
+    },
+    {
+      "key": 3,
+      "name": "Carlos Rodríguez",
+      "phone": "+58 934567890",
+      "email": "crodriguez@gmail.com",
+      "type": "social"
+    },
+    {
+      "key": 4,
+      "name": "Ana Martínez",
+      "phone": "+51 945678901",
+      "email": "amartinez@gmail.com",
+      "type": "trabajo"
+    },
+    {
+      "key": 5,
+      "name": "Luis Sánchez",
+      "phone": "+58 956789012",
+      "email": "lsanchez@gmail.com",
+      "type": "familia"
+    },
+    {
+      "key": 6,
+      "name": "Elena Fernández",
+      "phone": "+51 967890123",
+      "email": "efernandez@gmail.com",
+      "type": "familia"
+    },
+    {
+      "key": 7,
+      "name": "Pablo Moreno",
+      "phone": "+54 978901234",
+      "email": "pmoreno@gmail.com",
+      "type": "trabajo"
+    },
+    {
+      "key": 8,
+      "name": "Sofía Díaz",
+      "phone": "+54 989012345",
+      "email": "sdiaz@gmail.com",
+      "type": "social"
+    },
+    {
+      "key": 9,
+      "name": "Daniel Torres",
+      "phone": "+58 990123456",
+      "email": "dtorres@gmail.com",
+      "type": "social"
+    },
+    {
+      "key": 10,
+      "name": "Laura Vega",
+      "phone": "+51 901234567",
+      "email": "lvega@gmail.com",
+      "type": "social"
+    }
+  ]
+  
