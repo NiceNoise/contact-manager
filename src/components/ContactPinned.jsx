@@ -1,4 +1,7 @@
-function ContactPinned({ id, name, phone, email, type }) {
+function ContactPinned(props) {
+
+  const { id, name, phone, email, type } = props;
+  
   const getIcon = (type) => {
     switch (type) {
       case 'social':

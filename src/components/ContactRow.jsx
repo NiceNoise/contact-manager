@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
-function ContactRow({id,name,phone,email,type}){
+function ContactRow(props){
+
+    const {id,name,phone,email,type}=props;
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleCollapse = () => {
