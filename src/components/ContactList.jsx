@@ -1,18 +1,13 @@
-import ContactRow from './ContactRow';
-import contacts from '../data/contacts.json';
 
-function ContactList(){
+import ContactRow from './ContactRow';
+
+function ContactList({agenda}) {
+
+    
     return (
         <div>
-            {contacts.map(contact => (
-                <ContactRow
-                    key={contact.key}
-                    id={contact.key}
-                    name={contact.name}
-                    phone={contact.phone}
-                    email={contact.email}
-                    type={contact.type}
-                />
+            {agenda.map(contact => (
+                <ContactRow key={contact.key} contact={contact} />
         ))}
         </div>
     );

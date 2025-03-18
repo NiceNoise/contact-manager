@@ -1,13 +1,19 @@
+
 import ContactList from "./components/ContactList";
 import Header from "./components/Header";
 import ContactPinned from "./components/ContactPinned";
+import contacts from './data/contacts.json';
+
 
 
 const App = () => {
+
+  const agenda=contacts;
+
   return (
     <div className="d-flex flex-column vh-100">
-      {/* Cabecera fija de 80px */}
-      <header style={{ height: "60px" }}>
+      {/* Cabecera fija de 50px */}
+      <header style={{ height: "50px" }}>
         <Header name="Administrador de Contactos" />
       </header>
 
@@ -23,10 +29,7 @@ const App = () => {
                 style={{ backgroundColor: "#f8f9fa" }}
               >
                 <h5 style={{ color: "#244ea3" }}>Contacto Destacado</h5>
-                <ContactPinned id="1" name="Luis Sánchez" 
-                phone="+58 956789012" email="lsanchez@gmail.com" 
-                type="familia"
-                />
+                <ContactPinned contact={agenda[1]} />
               </div>
             </div>
 
@@ -38,7 +41,7 @@ const App = () => {
                 style={{ backgroundColor: "#f8f9fa" }}
               >
                 <h5 style={{ color: "#244ea3" }}>Mis Contactos</h5>
-                <ContactList />
+                <ContactList agenda={agenda}/>
               </div>
             </div>
           </div>
